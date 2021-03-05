@@ -1,1 +1,1 @@
-blaseball-mike==5.2.2
+blaseball-mike==5.4.1

@@ -36,3 +36,7 @@ class Wallet:
 
     def adjust(self, amount):
         self.money += amount
+
+    def refresh(self):
+        wallet = database.get_wallet(id_=self.id_)
+        self.money = wallet['money']
